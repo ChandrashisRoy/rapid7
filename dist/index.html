@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rapid 7</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-314222-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    
+        function gtag()
+        {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "UA-314222-5",
+        {
+            send_page_view: false,
+        });
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid">
+
+        <!--Navbar-->
+        <div class="row">
+            <div class="header">
+                <a href="#default"><img src="assets/images/rapid7-logo.png" class="navbar_logo" alt="BrandLogo"></a>
+            </div>
+        </div>
+
+        <!--Banner-->
+        <div class="row p-5 text-black text-start" style="background-image: url(assets/images/rapid7-heroimage.jpg); background-size: cover;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6 my-5">
+                <h1 class="text-start head-text">Rapid7 AWS Cloud Risk Assessment </h1>
+                <img src="assets/images/orangebar.png" class="orangebar" alt="orangebar">
+                <p class="text-start subhead-text">Quickly assess your AWS cloud security posture with Rapid7</p>
+                <p class="text-start subheader-text">
+                    Organizations continue to migrate to the cloud at a rapid pace to meet business demands and stay competitive, 
+                    increasing the complexity of their IT environments. As hybrid environments expand, maintaining risk and compliance becomes harder and harder.
+                    <br><br>
+                    Get cloud confidence and learn how to keep pace with cloud complexity as your business expands.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="assets/images/rapid7-front-face.png" class="front-face" alt="front-face">
+            </div>
+        </div>
+
+        <!--Cover-->
+        <div class="row bg-white">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 questionbox text-center">
+                <img src="assets/images/orangebar.png" class="orangebarnew" alt="orangebar">
+                <h1 class="text-center section_head">7 Questions to Determine Cloud Security Maturity</h1>
+                <br>
+                <p class="text-center subsection_text">Before your company needs to spin up a new workload or migrate to a new environment, 
+                    take a moment to assess your cloud security. Get insights into your cloud security after these 7 rapid-fire questions.
+                </p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        
+        <!--Quiz-->
+        <div class="row bg-white">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <!-- Questions -->
+                <div id="question-container" class="quiz-question shadow">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div id="image-container">
+                                <!-- The image will be added dynamically using JavaScript -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 questionbox">       
+                            <div id="question-text-container">
+                                <form id="quiz-form">
+                                    <!-- Questions and Answers will be added dynamically using JavaScript -->
+                                </form>
+                            </div>
+                            <button id="next-btn" class="next_button text-uppercase" style="display: none;">Next</button>
+                            <button id="submit-btn" class="next_button text-uppercase" style="display: none;">Submit</button>
+                            <div id="answer-error" class="text-danger"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Results -->
+                <div id="results-container" class="quiz-result shadow">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div id="result-image" style="padding: 50px;">
+                                <!-- Result image will be added dynamically using JavaScript -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 questionbox">
+                            <div id="result-details">
+                                <!-- Result text will be added dynamically using JavaScript -->
+                            </div>                
+                        </div>
+                        <div id="outsource" class="text-center">
+                            <!-- Result button will be added dynamically using JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <!--Intro-->
+        <div class="row bg-white blank">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 p-5">
+                <h1 class="text-center section_head">Business at the Speed of the Cloud</h1>
+                <div class="text-center">
+                    <img src="assets/images/orangebar.png" class="orangebar" alt="orangebar">
+                </div>
+                <br>
+                <p class="text-center subsection_text">As the pace of business moves faster, companies need to be able to increase agility and flexibility. 
+                    Whether you are focused on building a sophisticated new product or restructuring operations, the cloud is a way to move quickly and reliably.
+                </p>
+                <p class="text-center subsection_text">
+                    AWS provides powerful resources that help companies innovate with increased flexibility, scalability, and reliability. 
+                    But a cloud strategy cannot end there. Complex cloud environments need advanced security.
+                </p>
+                </p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <!--Section One-->
+        <div class="row bg-white blank">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 px-2">
+                <div class="row">
+                    <div class="col-sm-6 p-5">
+                        <img src="assets/images/orangebar.png" class="orangebarnew" alt="orangebar">
+                        <h1 class="section_head">Risks of Cloud Migration and Misconfiguration</h1>
+                        <p class="subsection_text">While cloud migration is essential for modern business, 
+                            the journey is filled with risks. Complex cloud environments can make it difficult to detect and stop incoming threats.
+                        </p>
+                        <br>
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <h3>9 out of 10</h3>
+                                <p class="subsection_text">organizations are vulnerable to security incidents due to cloud misconfigurations <sup>1</sup></p>
+                            </li>
+                            <li>
+                                <h3>45%</h3>
+                                <p class="subsection_text">of data breaches are cloud-based <sup>2</sup></p>
+                            </li>
+                            <li>
+                                <h3>+$284,292</h3>
+                                <p class="subsection_text">increase in data breach cost when cloud migrations are involved <sup>3</sup></p>
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="subsection_text">Innovation in the cloud requires advanced tools to ensure visibility and compliance in every 
+                            corner of your infrastructure. A patchwork of tools and an endless stream of alerts are not helping. To fully improve your security posture, 
+                            embrace a unified platform that assesses risk in real time and helps you prioritize remediation.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <img src="assets/images/rapid7-content-section.png" class="img-fluid p-5">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <!--Blog Section-->
+        <div class="row" style="background-color: #fff;">
+            <div class="col-md-2"></div>
+            <div class="col-sm-8">
+                <div class="text-center">
+                    <img src="assets/images/orangebar.png" class="orangebar" alt="orangebar">
+                </div>
+                <h1 class="text-center section_head">Cloud Security Insights, Unlocked</h1>
+                <p class="text-center subsection_text mt-5">Learn more about the possible fallout of cloud misconfiguration and how to overcome the challenges 
+                of protecting complex cloud environments.</p>
+                <div class="row">
+                    <div class="col-md-4 assessment" >
+                        <div class="item-box-blog shadow p-4 mb-4 bg-white">
+                            <div class="item-box-blog-image">
+                                <!--Image-->
+                                <figure>
+                                    <img alt="Whitepaper First" src="assets/images/rapid7-first-icon.png" class="img-thumb">
+                                </figure>
+                            </div>
+                            <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                    <h5>Use Automation to Address Misconfigurations and Cut Costs</h5>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                    <p>
+                                        Discover how to incrementally automate remediation for your organization, step by step, 
+                                        and overcome challenges in your AWS environments.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Read More Button-->
+                            <div class="d-grid">
+                                <a href="https://www.rapid7.com/info/insightcloudsec/automate-remediation-with-rapid7-and-aws/?utm_medium=content-track&utm_source=spiceworks&utm_campaign=gc-crc&utm_content=AWS-Assessment&utm_meta=gc10123" 
+                                target="_blank" tabindex="0" class="blog_button text-center" onClick="sendEvent('eBook | Use Automation');">
+                                    Read the eBook
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 assessment" >
+                        <div class="item-box-blog shadow p-4 mb-4 bg-white">
+                            <div class="item-box-blog-image">
+                                <!--Image-->
+                                <figure>
+                                    <img alt="Whitepaper Second" src="assets/images/rapid7-second-icon.png" class="img-thumb">
+                                </figure>
+                            </div>
+                            <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                    <h5>Secure Your Containerized Applications on AWS with Rapid7</h5>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                    <p>
+                                        Learn why protecting containerized applications requires a vastly different approach and 
+                                        find out how to adjust your security practices accordingly.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Read More Button-->
+                            <div class="d-grid">
+                                <a href="https://www.rapid7.com/info/aws-container-and-application-ebook/?utm_medium=content-track&utm_source=spiceworks&utm_campaign=gc-crc&utm_content=AWS-Container-ebook&utm_meta=gc10115" 
+                                target="_blank" tabindex="0" class="blog_button text-center" onClick="sendEvent('eBook | Secure Your Containerized Apps');">
+                                    Read the eBook
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 assessment" >
+                        <div class="item-box-blog shadow p-4 mb-4 bg-white">
+                            <div class="item-box-blog-image">
+                                <!--Image-->
+                                <figure>
+                                    <img alt="Whitepaper Third" src="assets/images/rapid7-third-icon.png" class="img-thumb">
+                                </figure>
+                            </div>
+                            <div class="item-box-blog-body">
+                            <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                    <h5>2022 Cloud Misconfigurations Report</h5>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                    <p>
+                                        Gain an in-depth understanding of why breaches occurred over the last year and how breaches can be avoided in the future.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Read More Button-->
+                            <div class="d-grid">
+                                <a href="https://www.rapid7.com/info/cloud-misconfigurations-research-report/?utm_medium=content-track&utm_source=spiceworks&utm_campaign=gc-crc&utm_content=AWS-Assessment&utm_meta=gc10122" 
+                                target="_blank" tabindex="0" class="blog_button text-center" onClick="sendEvent('Report | 2022 Cloud Misconfigs');">
+                                    Read the Report
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <!--Call to Action-->
+
+        <div class="row cta-box">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="margin-top: 5%; margin-bottom: 5%;">
+                <div class="row">
+                    <div class="col-sm-6 mt-5">
+                        <h1 class="text-start">Eliminate Cloud Risk with Rapid7</h1>
+                        <p class="text-start">Rapid7 simplifies cybersecurity and protects organizations in an ever-changing digital landscape. 
+                            Our consolidated risk management solution, Cloud Risk Complete, contains costs and reduces risk with continuous cloud security 
+                            and compliance. We enable businesses to confidently embrace the cloud, reduce risk, and stay ahead of evolving threats.
+                        </p>
+                        <p><strong>Sign up to gain essential benefits in the cloud:</strong></p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <span style="color:#E85E26"><strong>Real-Time Visibility:</strong></span> Monitor every resource across your AWS environment, 
+                                    and detect cloud risk immediately
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span style="color:#E85E26"><strong>Risk Prioritization:</strong></span> Know which risk signals to focus on and their potential 
+                                    impact with context-driven insights
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span style="color:#E85E26"><strong>Automated Cloud Compliance:</strong></span> Enforce organizational standards and streamline remediation with native, 
+                                    no-code automation
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="text-start">
+                            <a href="https://www.rapid7.com/solutions/unified-cloudsec-vm-appsec/?utm_medium=content-track&utm_source=spiceworks&utm_campaign=gc-crc&utm_content=AWS-Assessment&utm_meta=gc10114" 
+                            target="_blank" onClick="sendEvent('Learn More');">
+                                <button type="button" class="next_button text-uppercase">Learn More</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6"></div>
+                </div>
+                
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <!--Footer-->
+        <div class="row" style="background-color: #3D4448;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 text-white" style="margin-top: 1%; margin-bottom: 1%;">
+                <p class="source-text">Sources
+                    <ol class="source-text">
+                        <li>Yates, Tweedie, “Cloud Misconfigurations on the Rise: 2021 Cloud Security Report,” Independent, September 15, 2021. <a href="https://www.independent.co.uk/news/business/business-reporter/cloud-misconfigurations-security-report-2021-b1920565.html" target="_blank" style="color: #fff;">https://www.independent.co.uk/news/business/business-reporter/cloud-misconfigurations-security-report-2021-b1920565.html</a></li>
+                        <li>“Cost of a Data Breach 2022,” IBM, July 2022.<a href="https://www.ibm.com/reports/data-breach" target="_blank" style="color: #fff;">https://www.ibm.com/reports/data-breach</a></li>
+                    </ol>
+                </p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <!--Footer Navbar-->
+        <div class="row">
+            <div class="header text-white">
+                <a href="#default"><img src="assets/images/rapid7-logo.png" class="navbar_logo"></a>
+                <div class="header-right">
+                    <a class="text-white" href="#">© Rapid7</a>
+                    <a class="text-white" href="https://www.rapid7.com/legal/">Legal Terms</a>
+                    <a class="text-white" href="https://www.rapid7.com/privacy-policy/">Privacy Policy</a>
+                    <a class="text-white" href="https://www.rapid7.com/export-notice/">Export Notice</a>
+                    <a class="text-white" href="https://www.rapid7.com/trust/">Trust</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/script.js"></script>
+    <script>
+        const OLI = "357967";
+        const contentType = "microsite";
+        const vendor = "Rapid7";
+        //for sending page views
+        
+        function sendPageView(page) {
+            const gaPrefix = window.location.hostname+'/service.labs/'+vendor+'/'+contentType+'/'+OLI+'/en/sw/';
+            gtag('config', 'UA-314222-5', {
+                'page_location': gaPrefix+page,
+                'non_interaction': true
+            });
+        }
+        //format for sending events. action should be click for most uses, label should be name of what is clicked (in this case the asset name)
+        function sendEvent(category, action, label) {
+            gtag('event', action, {
+                'event_category': 'Vendor Non-Interactive',
+                'event_label': label,
+                'non_interaction': true
+            });
+        }
+
+        sendPageView('landingPage');
+  
+      </script>
+</body>
+</html>

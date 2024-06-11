@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {box-sizing: border-box;}
+        
+body { 
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #000;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    padding-left: 80px;
+}
+
+.navbar_logo{
+    width: 150px;
+    height: auto;
+}
+
+.quiz-cover{
+    background-color: #fff; 
+    border-radius: 25px;
+}
+
+.blank{
+    margin-top: 80px;
+}
+
+.quiz-question{
+    background-color: #fff; 
+    border-radius: 25px;
+}
+
+.quiz-result{
+    display: none; 
+    background-color: #fff; 
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 2800px) and (min-width: 1800px)   {
+
+    .head-text{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #000;
+    }
+
+    .orangebar{
+        width: 5%;
+    }
+
+    .subhead-text{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 48px;
+        color: #000;
+    }
+
+    .subheader-text{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .assessment{
+        position:relative; 
+        top:100px;
+        border-radius: 25px;
+    }
+    .front-face{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 80px;
+    }
+
+    .questionbox{
+        padding: 100px;
+    }
+
+    .item-box-blog-heading{
+        height: 80px;
+    }
+
+    .item-box-blog-text {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .cta-box{
+        background-size: cover; 
+        background-position: center;
+        background-image: url(../images/rapid7-footer.png);
+    }
+
+    .next_button{
+        background-color: #FF8237;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        border: 1px #FF8237 solid;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .next_button:hover{
+        background-color: #fff;
+        color: #FF8237;
+        border: 1px #FF8237 solid;
+    }
+
+}
+
+@media only screen and (max-width: 1799px) and (min-width: 1400px)   {
+
+    .head-text{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #000;
+    }
+        
+    .orangebar{
+        width: 5%;
+    }
+
+    .subhead-text{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 48px;
+        color: #000;
+    }
+
+    .subheader-text{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .assessment{
+        position:relative; 
+        top:60px;
+        border-radius: 25px;
+    }
+    .front-face{
+        width: 100%;
+        height: auto;
+        position:relative;
+        top:310px;
+    }
+
+    .questionbox{
+        padding: 40px;
+    }
+
+    .item-box-blog-heading{
+        height: 100px;
+    }
+
+    .item-box-blog-text {
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .cta-box{
+        background-size: cover; 
+        background-position: center;
+        background-image: url(../images/rapid7-footer.png);
+    }
+
+    .next_button{
+        background-color: #FF8237;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        border: 1px #FF8237 solid;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .next_button:hover{
+        background-color: #fff;
+        color: #FF8237;
+        border: 1px #FF8237 solid;
+    }
+  
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px)   {
+
+    .head-text{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #000;
+    }
+        
+    .orangebar{
+        width: 5%;
+    }
+
+    .subhead-text{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 48px;
+        color: #000;
+    }
+
+    .subheader-text{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+  
+    .assessment{
+        position:relative; 
+        top:60px;
+        border-radius: 25px;
+    }
+    .front-face{
+        width: 100%;
+        height: auto;
+        position:relative;
+        top:325px;
+    }
+
+    .questionbox{
+        padding: 30px;
+    }
+
+    .item-box-blog-heading{
+        height: 120px;
+    }
+
+    .item-box-blog-text {
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .cta-box{
+        background-size: cover; 
+        background-position: center;
+        background-image: url(../images/rapid7-footer.png);
+    }
+
+    .next_button{
+        background-color: #FF8237;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        border: 1px #FF8237 solid;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .next_button:hover{
+        background-color: #fff;
+        color: #FF8237;
+        border: 1px #FF8237 solid;
+    }
+  
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 800px)   {
+
+    .head-text{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #000;
+    }
+        
+    .orangebar{
+        width: 5%;
+    }
+
+    .subhead-text{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 48px;
+        color: #000;
+    }
+
+    .subheader-text{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .assessment{
+        position:relative; 
+        top:50px;
+        border-radius: 25px;
+    }
+
+    .front-face{
+        display: none;
+    }
+
+    .questionbox{
+        padding: 25px;
+    }
+
+    .item-box-blog-heading{
+        height: 120px;
+    }
+
+    .item-box-blog-text {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .cta-box{
+        background-size: cover; 
+        background-position: center;
+        background-image: url(../images/rapid7-footer.png);
+    }
+
+    .next_button{
+        background-color: #FF8237;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        border: 1px #FF8237 solid;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .next_button:hover{
+        background-color: #fff;
+        color: #FF8237;
+        border: 1px #FF8237 solid;
+    }
+  
+}
+
+@media only screen and (max-width: 799px) and (min-width: 500px)   {
+
+    .head-text{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #000;
+    }
+        
+    .orangebar{
+        width: 10%;
+    }
+
+    .subhead-text{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #000;
+    }
+
+    .subheader-text{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .assessment{
+        position:relative; 
+        top:50px;
+        border-radius: 25px;
+    }
+
+    .front-face{
+        display: none;
+    }
+
+    .questionbox{
+        padding: 25px;
+    }
+
+    .item-box-blog-heading{
+        height: 120px;
+    }
+
+    .item-box-blog-text {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .cta-box{
+        background-size: cover; 
+        background-position: center;
+        background-image: url(../images/rapid7-footer.png);
+    }
+
+    .next_button{
+        background-color: #FF8237;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        border: 1px #FF8237 solid;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .next_button:hover{
+        background-color: #fff;
+        color: #FF8237;
+        border: 1px #FF8237 solid;
+    }
+    
+}
+
+@media screen and (max-width: 499px) {
+
+    .head-text{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+        color: #000;
+    }
+        
+    .orangebar{
+        width: 15%;
+    }
+
+    .subhead-text{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+        color: #000;
+    }
+
+    .subheader-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .assessment{
+        position:relative; 
+        top:50px;
+        border-radius: 25px;
+    }
+    .front-face{
+        width: 100%;
+        height: auto;
+        position:relative;
+        top:50px;
+    }
+
+    .questionbox{
+        padding: 20px;
+    }
+
+    .item-box-blog-heading{
+        height: 80px;
+    }
+
+    .item-box-blog-text {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .cta-box{
+        background-size: content; 
+        background-position: center;
+        background-image: url(../images/rapid7-footer-mobile.png);
+        height: 1200px;
+    }
+
+    .next_button{
+        background-color: #FF8237;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        border: 1px #FF8237 solid;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .next_button:hover{
+        background-color: #fff;
+        color: #FF8237;
+        border: 1px #FF8237 solid;
+    }
+    
+}
+
+.col-sm-5{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.col-sm-8{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.orangebarnew{
+    width: 10%;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000;
+}
+.section_head{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
+}
+  
+.subsection_text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog_button{
+    color: #E85E26;
+    padding: 20px;
+}
+
+.blog_button:hover{
+    color: #000;
+    padding: 20px;
+}
+
+.source-text{
+    font-size: 12px; 
+    font-weight: 400; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.socialimg{
+    width: 30px;
+    height: 30px;
+}
+  
+.BrandLogo{
+    width: 200px;
+    height: auto;
+}
+  
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+ 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-right {
+    float: right;
+}
+
+.item-box-blog {
+    border: 1px solid #dadada;
+    text-align: center;
+    z-index: 4;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.img-thumb{
+    width: 50px;
+    height: 50px;
+}
